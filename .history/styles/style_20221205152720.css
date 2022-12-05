@@ -34,7 +34,7 @@ h1{
     font-size: 3.6rem;
     padding: 5px;
     text-align: center;
-    width: 160px;
+    width: 45%;
     position: absolute;
     top: 0;
     right: 0;
@@ -81,15 +81,4 @@ h1{
     .card:nth-child(3){
         width: 100%;
     }
-}
-
-@media  screen and (max-width: 768px) {
-    .wrapper{
-        flex-wrap: wrap;
-    }
-
-    .card:nth-child(1), .card:nth-child(2), .card:nth-child(3)    {
-        width: 100%;
-    }
-    
 }

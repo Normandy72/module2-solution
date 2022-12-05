@@ -1,0 +1,56 @@
+*{
+    font-family: 'Comic Neue', cursive;
+    font-size: 10px;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 4.4rem;
+    text-align: center;
+
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 30%;
+    margin: 0 15px 30px;
+    position: relative;
+    border: 1px solid black;
+}
+
+.card__name{
+    border: 1px solid black;
+    font-size: 3.6rem;
+    padding: 5px;
+    text-align: center;
+    width: 40%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.card__text{
+    font-size: 1.6rem;
+    padding: 70px 10px 10px;
+}
+
+.card:nth-child(1){
+    background-color: cadetblue;
+}
+
+.card:nth-child(2){
+    background-color: yellow;
+}
+
+.card:nth-child(3){
+    background-color: limegreen;
+}
